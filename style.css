@@ -1,0 +1,94 @@
+
+/* Background */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+
+
+/* ContenitoreNero*/
+
+.contenitore{
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 1200px;
+  height: 1100px;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  background: rgba(8,8,8, 0.6)
+}
+
+#logo{
+  margin-top: 150px;
+  width: 200px;
+  height: 100px;
+}
+
+/* Header */
+h1{
+  color: #32cd32;
+}
+
+/* navbar */
+
+.navbar{
+  margin: auto;
+  background-color: #32cd32;
+  width: 900px;
+  height: 23px;
+}
+
+div.navbar{
+  padding: 1% 1% 1% 1%;
+}
+
+
+/* Main */
+
+/* Section 1 */
+#section{
+  margin-left: 150px;
+  text-align: left;
+  color: white;
+}
+
+section div{
+  font-weight: bolder;
+}
+
+section> div{
+
+  font-size: 25px;
+  margin-top: 50px
+}
+
+div p{
+  margin-top: 2px;
+}
+/* Indicatori carica batterie */
+
+.Batteria1{
+  margin-top: 20px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: orange;
+  width: 300px;
+  height: 30px;
+}
+
+.Batteria2{
+  margin-top: 20px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #32cd32;
+  width: 500px;
+  height: 30px;
+}
+
+.Batteria3{margin-top: 20px;
+border-radius: 10px 10px 10px 10px;
+background-color: #DC143C;
+width: 200px;
+height: 30px;
+}
